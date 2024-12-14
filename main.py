@@ -66,7 +66,7 @@ def run_key(k: Tuple[float, float, int, int, int], finger_block:List[List[float]
             row = row_effort[row-1]
 
             penalties = (dist_penalty, double_finger_penalty, doubleHandPenalty, fingerPenalty, row)
-            penalty = sum(penalties[i]*effortWeighting[i] for i in range(len(effortWeighting)))
+            penalty = sum(penalties[i]*effort_weighting[i] for i in range(len(effort_weighting)))
             new_objective = objective_counter + penalty
 
             finger_block[finger_idx][2] = x

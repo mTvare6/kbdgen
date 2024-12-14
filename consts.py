@@ -19,7 +19,7 @@ dist_effort = 1
 double_fingle_effort = 1
 double_hand_effort = 1
 
-effortWeighting = (0.7917, 1, 0, 0.4773, 0.00)
+effort_weighting = (0.7917, 1, 0, 0.4773, 0.00)
 trad_layout_map = [
     (0.5, 4.5, 1, 1, 0),
     (1.5, 4.5, 1, 1, 0),
